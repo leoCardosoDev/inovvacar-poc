@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#02041d" />
+    <meta name="description" content="Design System v0 da InovvaCar, herdando fundamentos institucionais da Inovva Group." />
+    <title>InovvaCar — Design System v0</title>
+    <link rel="stylesheet" href="styles/tokens.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/motion.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand-lockup" href="#top" aria-label="InovvaCar — voltar ao início">
+          <img src="assets/brand/inovvacar-logo-claro.png" alt="InovvaCar" />
+        </a>
+
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="#fundamentos">Fundamentos</a>
+          <a href="#tipografia">Tipografia</a>
+          <a href="#cores">Cores</a>
+          <a href="#componentes">Componentes</a>
+          <a href="#movimento">Movimento</a>
+          <a href="#institucional">Institucional</a>
+          <a href="#showroom">Showroom</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="button button--dark" href="#institucional">
+            Ver territórios
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m7 17 10-10M8 7h9v9" /></svg>
+          </a>
+          <button class="menu-trigger" type="button" data-menu-trigger aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+          </button>
+        </div>
+      </header>
+
+      <nav class="mobile-menu" id="mobile-menu" data-mobile-menu aria-label="Navegação móvel">
+        <a href="#fundamentos">Fundamentos</a>
+        <a href="#tipografia">Tipografia</a>
+        <a href="#cores">Cores</a>
+        <a href="#componentes">Componentes</a>
+        <a href="#movimento">Movimento</a>
+        <a href="#institucional">Institucional</a>
+        <a href="#showroom">Showroom</a>
+        <span class="mono-label">InovvaCar · Design System v0</span>
+      </nav>
+
+      <main id="main-content">
+        <section class="hero hero--sonic" id="top" data-sonic-hero>
+          <div class="hero-sonic__stage is-intro" data-sonic-stage>
+            <div class="hero-sonic__dots" aria-hidden="true"></div>
+            <div class="hero-sonic__wash" aria-hidden="true"></div>
+            <svg class="hero-sonic__wave" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true">
+              <path class="hero-sonic__wave-line hero-sonic__wave-line--one" d="M-30 390 C150 250 250 520 430 370 S760 210 1230 410" />
+              <path class="hero-sonic__wave-line hero-sonic__wave-line--two" d="M-30 450 C190 600 270 270 490 420 S820 560 1230 300" />
+              <path class="hero-sonic__wave-line hero-sonic__wave-line--three" d="M-30 270 C200 360 350 170 560 310 S880 420 1230 210" />
+            </svg>
+            <span class="hero-sonic__inner-frame" aria-hidden="true"></span>
+            <span class="hero-sonic__corner hero-sonic__corner--top-left" aria-hidden="true"></span>
+            <span class="hero-sonic__corner hero-sonic__corner--top-right" aria-hidden="true"></span>
+            <span class="hero-sonic__corner hero-sonic__corner--bottom-left" aria-hidden="true"></span>
+            <span class="hero-sonic__corner hero-sonic__corner--bottom-right" aria-hidden="true"></span>
+            <span class="hero-sonic__axis hero-sonic__axis--left" aria-hidden="true"><i></i><i></i></span>
+            <span class="hero-sonic__axis hero-sonic__axis--right" aria-hidden="true"><i></i><i></i></span>
+            <span class="hero-sonic__crosshair" aria-hidden="true"></span>
+            <span class="hero-sonic__sequence-label"><i></i> InovvaCar <b>/</b> Filme de introdução</span>
+
+            <div class="hero-sonic__intro-word" data-sonic-intro-word aria-hidden="true">InovvaCar.</div>
+
+            <h1 class="hero-sonic__main-title" data-sonic-main-title>
+              <span class="hero-sonic__title-chunk">Sistema</span>
+              <span class="hero-sonic__title-chunk">para</span>
+              <span class="hero-sonic__title-chunk">conduzir.</span>
+            </h1>
+
+            <div class="hero-sonic__alt-title" data-sonic-alt-title aria-hidden="true">Clareza em movimento.</div>
+
+            <div class="hero-sonic__resolve-title" data-sonic-resolve-title>
+              <strong>Clareza para avançar.</strong>
+              <span>Design System v0 · InovvaCar</span>
+            </div>
+
+            <div class="hero-sonic__device" data-sonic-device aria-label="Amostra central da aplicação do Design System InovvaCar">
+              <div class="hero-sonic__device-notch" aria-hidden="true"></div>
+              <div class="hero-sonic__device-top"><span>9:41</span><span>INOVVACAR · 00</span><span>•••</span></div>
+              <div class="hero-sonic__device-head"><span class="mono-label">Fundação visual</span><strong>Mais do que<br />um carro.</strong></div>
+              <div class="hero-sonic__device-media"><img src="assets/people/maicon-crossed-arms.png" alt="Pessoa em uma composição institucional da InovvaCar" /><span>Curadoria · presença · direção</span></div>
+              <div class="hero-sonic__device-footer"><span>Estrutura antes do ornamento.</span><i>↗</i></div>
+            </div>
+
+            <div class="hero-sonic__cards" data-sonic-cards aria-label="Camadas visuais da composição do hero">
+              <figure class="hero-sonic__card hero-sonic__card--one"><img src="assets/references/institutional/aex-mountain.jpg" alt="Paisagem usada como referência de narrativa" /><figcaption><span>01 / Contexto</span><strong>Presença</strong></figcaption></figure>
+              <figure class="hero-sonic__card hero-sonic__card--two"><img src="assets/references/institutional/bloomava-sculpture.jpg" alt="Escultura usada como referência de composição" /><figcaption><span>02 / Forma</span><strong>Curadoria</strong></figcaption></figure>
+              <figure class="hero-sonic__card hero-sonic__card--three"><img src="assets/references/institutional/ai-intelligence-portrait.jpg" alt="Retrato usado como referência de prova humana" /><figcaption><span>03 / Prova</span><strong>Confiança</strong></figcaption></figure>
+              <figure class="hero-sonic__card hero-sonic__card--four"><img src="assets/references/institutional/savory-editorial.webp" alt="Retrato editorial usado como referência de narrativa" /><figcaption><span>04 / História</span><strong>Intenção</strong></figcaption></figure>
+            </div>
+
+            <div class="hero-sonic__flash" data-sonic-flash aria-hidden="true"></div>
+            <div class="hero-sonic__meta-rail"><i></i><span data-sonic-meta>Fundação visual · InovvaCar</span><button type="button" data-sonic-replay>Repetir entrada ↗</button></div>
+            <div class="hero-sonic__scroll-cue" aria-hidden="true"><span>Deslize para explorar</span><i></i></div>
+          </div>
+        </section>
+
+        <div class="attribute-band" aria-label="Atributos do sistema">
+          <span>Institucional</span><span>Premium</span><span>Sóbrio</span><span>Contemporâneo</span><span>Humano</span><span>Orientado a decisão</span>
+        </div>
+
+        <section class="section" id="fundamentos">
+          <div class="container">
+            <span class="eyebrow js-reveal">01 / Fundamentos</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Uma linguagem de <span>decisão.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">O v0 começa com regras simples: estruturar antes de decorar, usar o ciano para orientar e editar cada interface até o próximo passo ficar evidente.</p>
+
+            <div class="principles-grid" data-glow-grid>
+              <article class="principle-card principle-card--dark js-reveal" data-glow-card>
+                <span class="card-kicker">A / Estrutura</span>
+                <h3>Arquitetura antes do ornamento.</h3>
+                <p>Grid, hierarquia e respiro tornam a informação legível. Elementos técnicos sempre sustentam a narrativa.</p>
+              </article>
+              <article class="principle-card js-reveal js-reveal--delay-1" data-glow-card>
+                <span class="card-kicker">B / Direção</span>
+                <h3>A linha mostra avanço.</h3>
+                <p>A linha de direção conecta etapas, números e chamadas sem se tornar decoração gratuita.</p>
+              </article>
+              <article class="principle-card principle-card--wide js-reveal js-reveal--delay-2" data-glow-card>
+                <span class="card-kicker">C / Clareza</span>
+                <h3>Poucas mensagens. Grande precisão.</h3>
+                <p>Cada dobra deve responder uma pergunta, conduzir uma decisão e deixar evidente o próximo passo. Premium nasce da edição, não do excesso.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--soft" id="tipografia">
+          <div class="container">
+            <span class="eyebrow js-reveal">02 / Tipografia</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Voz executiva.<br /><span>Leitura sem ruído.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">A combinação é provisória no v0: Manrope articula autoridade, Inter preserva fluidez e Geist Mono organiza evidências, dados e microinformação.</p>
+
+            <div class="type-layout">
+              <article class="type-specimen js-reveal">
+                <span class="mono-label">Display / Primary · Manrope</span>
+                <div class="type-specimen__display">Mais do que um carro.</div>
+                <p class="type-specimen__body">A tipografia ocupa espaço com confiança, mas continua servindo à compreensão — do posicionamento institucional ao detalhe do dossiê.</p>
+              </article>
+              <div class="type-notes js-reveal js-reveal--delay-1">
+                <div class="type-note"><span class="mono-label">Título</span><div class="type-note__sample type-note__sample--display">Manrope · 600–750</div></div>
+                <div class="type-note"><span class="mono-label">Interface</span><div class="type-note__sample">Inter · 400–600</div></div>
+                <div class="type-note"><span class="mono-label">Dado / label</span><div class="type-note__sample type-note__sample--mono">C 180 · Signature · v0</div></div>
+                <div class="type-note"><span class="mono-label">Fallback</span><div class="type-note__sample">Segoe UI · Arial · sans-serif</div></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="cores">
+          <div class="container">
+            <span class="eyebrow js-reveal">03 / Sistema de cores</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Contraste com <span>direção.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">Deep Ink ancora confiança. Branco amplia respiro. O azul entra como movimento, prova e ação — nunca como massa indiscriminada.</p>
+
+            <div class="swatch-grid">
+              <article class="swatch-card swatch--ink js-reveal"><div><span class="swatch-card__label">Primary · Deep Ink</span><div class="swatch-card__value">#02041D</div></div><span class="swatch-card__meta">Texto principal · fundos escuros</span></article>
+              <article class="swatch-card swatch--blue js-reveal js-reveal--delay-1"><div><span class="swatch-card__label">Accent · Logo Blue</span><div class="swatch-card__value">#439FE2</div></div><span class="swatch-card__meta">Ação · foco · direção</span></article>
+              <article class="swatch-card swatch--cyan js-reveal js-reveal--delay-2"><div><span class="swatch-card__label">Accent · Cyan</span><div class="swatch-card__value">#60AFD4</div></div><span class="swatch-card__meta">Detalhe · hover · sinal</span></article>
+              <article class="swatch-card swatch--graphite js-reveal js-reveal--delay-3"><div><span class="swatch-card__label">Secondary · Graphite</span><div class="swatch-card__value">#1E2B34</div></div><span class="swatch-card__meta">Texto secundário · contraste</span></article>
+              <article class="swatch-card swatch--surface js-reveal"><div><span class="swatch-card__label">Neutral · Soft White</span><div class="swatch-card__value">#F4F7F8</div></div><span class="swatch-card__meta">Superfície · respiro</span></article>
+              <article class="swatch-card swatch--silver js-reveal js-reveal--delay-1"><div><span class="swatch-card__label">Neutral · Steel</span><div class="swatch-card__value">#A7B3B9</div></div><span class="swatch-card__meta">Texto auxiliar · silêncio</span></article>
+              <article class="swatch-card swatch--white js-reveal js-reveal--delay-2"><div><span class="swatch-card__label">Neutral · White</span><div class="swatch-card__value">#FFFFFF</div></div><span class="swatch-card__meta">Base · cartões · leitura</span></article>
+              <article class="swatch-card swatch--gradient swatch-card--wide js-reveal js-reveal--delay-3"><div><span class="swatch-card__label">Capital Gradient</span><div class="swatch-card__value">Ink → Blue</div></div><span class="swatch-card__meta">Hero e CTA de alto impacto · não usar em texto longo</span></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--dark" id="componentes">
+          <div class="container">
+            <span class="eyebrow js-reveal">04 / Componentes</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Componentes com <span>intenção.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">A primeira biblioteca do v0 prioriza decisões essenciais: ação, estado, formulário, conteúdo em camadas e prova de informação.</p>
+
+            <div class="component-grid">
+              <article class="component-card js-reveal">
+                <span class="card-kicker">04.1 / Actions</span>
+                <h3>Ação evidente, resposta imediata.</h3>
+                <p>Os CTAs combinam texto explícito, cápsula de alto contraste e um sinal visual curto para indicar continuidade.</p>
+                <div class="button-row"><a class="button button--dark" href="#top">Ação principal <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m7 17 10-10M8 7h9v9" /></svg></a><a class="button button--secondary" href="#cores">Ação secundária <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></a></div>
+              </article>
+
+              <article class="component-card js-reveal js-reveal--delay-1">
+                <span class="card-kicker">04.2 / States</span>
+                <h3>Estados que informam sem ruído.</h3>
+                <p>Usar status para traduzir disponibilidade, andamento e validação. O estado nunca depende só da cor.</p>
+                <div class="tag-row"><span class="tag">Signature</span><span class="tag">Curadoria</span></div>
+                <div class="status-row"><span class="status">Disponível</span><span class="status status--muted">Em análise</span><span class="status status--warning">Atenção</span></div>
+              </article>
+
+              <article class="component-card component-card--wide js-reveal js-reveal--delay-2">
+                <span class="card-kicker">04.3 / Form</span>
+                <h3>Formulários que orientam.</h3>
+                <p>Cada campo pede apenas o necessário para qualificar a próxima conversa. Exemplo visual para compra, locação, consórcio ou troca.</p>
+                <form class="form-demo" onsubmit="return false">
+                  <div class="field"><label for="name">Nome</label><input id="name" type="text" placeholder="Como podemos chamar você?" /></div>
+                  <div class="field"><label for="contact">Contato</label><input id="contact" type="email" placeholder="nome@email.com" /></div>
+                  <div class="field field--full"><label for="intent">Intenção</label><input id="intent" type="text" placeholder="Comprar, alugar, planejar ou trocar" /></div>
+                  <div class="field field--full"><label for="message">Contexto</label><textarea id="message" placeholder="Conte brevemente o momento que você está vivendo."></textarea></div>
+                  <div><button class="button button--dark" type="submit">Continuar <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></button></div>
+                </form>
+              </article>
+
+              <article class="component-card js-reveal">
+                <span class="card-kicker">04.4 / Disclosure</span>
+                <h3>Conteúdo em camadas.</h3>
+                <p>Revelar detalhes quando necessário sem esconder informações comerciais importantes.</p>
+                <div class="accordion">
+                  <div class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="false" data-accordion-trigger><span>Quando usar uma camada?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg></button><div class="accordion__panel">Para dossiês, perguntas frequentes e especificações extensas. O resumo deve continuar visível antes da expansão.</div></div>
+                  <div class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="false" data-accordion-trigger><span>O que nunca deve ser escondido?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg></button><div class="accordion__panel">Preço, disponibilidade, condição, contato e o próximo passo comercial.</div></div>
+                </div>
+              </article>
+
+              <article class="component-card js-reveal js-reveal--delay-1">
+                <span class="card-kicker">04.5 / Cards</span>
+                <h3>Informação em ritmo editorial.</h3>
+                <p>Cards não são caixas para preencher. Eles organizam contraste, prova e próxima ação.</p>
+                <div class="tag-row"><span class="tag">Ano · a confirmar</span><span class="tag">Quilometragem · a confirmar</span></div>
+                <div class="rule"></div>
+                <span class="mono-label" style="color: var(--color-cyan);">Veículo · modelo</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--soft" id="movimento">
+          <div class="container">
+            <span class="eyebrow js-reveal">05 / Movimento</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Movimento que <span>orienta.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">Motion é sinal de navegação e profundidade, não uma camada que bloqueia o conteúdo. O v0 respeita `prefers-reduced-motion` e mantém uma leitura estática funcional.</p>
+
+            <div class="motion-grid">
+              <article class="motion-card js-reveal"><div class="motion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" /></svg></div><h3>Entrada de conteúdo</h3><p>20–30 px no eixo Y, easing de saída e duração curta o bastante para não atrasar a leitura.</p></article>
+              <article class="motion-card ambient-beam js-reveal js-reveal--delay-1"><div class="motion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12h16M12 4v16" /></svg></div><h3>Linha de direção</h3><p>Movimento ambiente lento reservado ao grid, aos conectores e a transições de seção.</p></article>
+              <article class="motion-card js-reveal js-reveal--delay-2"><div class="motion-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 3v18M3 12h18" /></svg></div><h3>Foco e profundidade</h3><p>Elevação e glow são respostas para elementos acionáveis. Nunca reduzir legibilidade para criar atmosfera.</p></article>
+            </div>
+
+            <div class="asset-card js-reveal js-reveal--delay-2">
+              <div class="asset-card__media"><img src="assets/method/kv-method.png" alt="Imagem de referência para apresentação de método" loading="lazy" /></div>
+              <div class="asset-card__copy"><span class="eyebrow">Asset / Aplicação</span><h3>Imagem com função, não como decoração.</h3><p>Assets aprovados entram para comunicar método, confiança e contexto. Na InovvaCar, imagens de veículos devem preservar o protagonismo do produto e apoiar a decisão comercial.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--dark" id="institucional">
+          <div class="container">
+            <span class="eyebrow js-reveal">06 / Institucional · hero</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Entrada com ritmo.<br /><span>Sem neon.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">O Sonic Link entra como referência de coreografia: pulso, camadas e aparição sequenciada para conduzir a primeira dobra. A paleta continua sendo a da InovvaCar; nenhum gradiente ou cor neon da referência é herdado.</p>
+
+            <div class="entry-demo js-reveal js-reveal--delay-2" data-entry-demo>
+              <div class="entry-demo__visual" aria-label="Amostra de entrada sequenciada do hero institucional">
+                <span class="entry-demo__pulse"></span>
+                <span class="entry-demo__line entry-demo__line--one"><i>01</i><strong>Marca</strong><em>clareza antes do ruído</em></span>
+                <span class="entry-demo__line entry-demo__line--two"><i>02</i><strong>Contexto</strong><em>presença, curadoria e confiança</em></span>
+                <span class="entry-demo__line entry-demo__line--three"><i>03</i><strong>Próximo passo</strong><em>uma decisão fácil de continuar</em></span>
+                <span class="entry-demo__axis"></span>
+              </div>
+              <div class="entry-demo__copy"><span class="card-kicker">Sonic Link / referência de movimento</span><h3>Coreografia de entrada, não estética emprestada.</h3><p>Elementos entram em sequência curta, com deslocamento vertical, pulso de linha e profundidade leve. O conteúdo permanece legível e o fallback estático continua completo.</p><button class="button button--dark" type="button" data-entry-replay>Repetir entrada <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.34-5.66M4 5v5h5" /></svg></button></div>
+            </div>
+
+            <div class="media-gallery media-gallery--institutional js-reveal" aria-label="Galeria de referências para o institucional">
+              <div class="media-gallery__heading"><span class="card-kicker">Bloco / Narrativa e presença</span><h3>Galeria editorial em blocos.</h3><p>Recortes de AEX, Bloomava, AI Intelligence e Savory Plate orientam capítulos, prova humana e curadoria visual.</p></div>
+              <div class="media-gallery__track">
+                <figure class="media-tile media-tile--large"><img src="assets/references/institutional/aex-mountain.jpg" alt="Paisagem de montanha usada como referência de narrativa editorial" loading="lazy" /><figcaption><span>AEX</span><strong>Capítulos e presença</strong></figcaption></figure>
+                <figure class="media-tile"><img src="assets/references/institutional/bloomava-sculpture.jpg" alt="Escultura abstrata em ambiente claro usada como referência de galeria" loading="lazy" /><figcaption><span>Bloomava</span><strong>Bento visual</strong></figcaption></figure>
+                <figure class="media-tile"><img src="assets/references/institutional/ai-intelligence-portrait.jpg" alt="Retrato usado como referência de prova humana" loading="lazy" /><figcaption><span>AI Intelligence</span><strong>Prova e depoimento</strong></figcaption></figure>
+                <figure class="media-tile"><img src="assets/references/institutional/savory-editorial.webp" alt="Retrato editorial usado como referência de conteúdo" loading="lazy" /><figcaption><span>Savory Plate</span><strong>História e curadoria</strong></figcaption></figure>
+              </div>
+            </div>
+
+            <div class="slot-card js-reveal"><span class="mono-label">Slot futuro / Institucional</span><strong>Campanha, operação, time ou presença.</strong><small>Proporção flexível · imagem ou vídeo curto · sempre com função narrativa.</small></div>
+          </div>
+        </section>
+
+        <section class="section section--dark section--showroom" id="showroom">
+          <div class="container">
+            <span class="eyebrow js-reveal">07 / Showroom · carro por carro</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Hero por frame.<br /><span>O carro conduz.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">Iron Man e Thor são referências para páginas internas de cada veículo. Cada sequência deve revelar um único carro, com fallback estático, carregamento progressivo e informações comerciais sempre acessíveis.</p>
+
+            <div class="showroom-sequence-grid">
+              <article class="sequence-panel js-reveal">
+                <div class="sequence-panel__heading"><div><span class="card-kicker">Exemplo / Iron Man</span><h3>Entrada cinematográfica.</h3></div><span class="context-badge context-badge--blue">Frame a frame</span></div>
+                <div class="sequence-demo" data-sequence-demo data-sequence-labels="Frame 01 · abertura|Frame 02 · aproximação">
+                  <div class="sequence-demo__stage">
+                    <img class="sequence-demo__frame is-active" data-sequence-frame src="assets/references/showroom/iron-man-hero.png" alt="Referência de abertura para hero interno de showroom" />
+                    <img class="sequence-demo__frame" data-sequence-frame src="assets/references/showroom/iron-man-frame.jpg" alt="Referência de frame intermediário para hero interno de showroom" />
+                    <div class="sequence-demo__hud"><span class="mono-label">Hero / sequência</span><span data-sequence-output>Frame 01 · abertura</span></div>
+                  </div>
+                  <label class="sequence-demo__range"><span class="mono-label">Scrub da referência</span><input type="range" min="0" max="1" step="1" value="0" data-sequence-range aria-label="Controlar amostra de sequência Iron Man" /><span class="sequence-demo__ticks" aria-hidden="true"><i>01</i><i>02</i></span></label>
+                </div>
+              </article>
+
+              <article class="sequence-panel js-reveal js-reveal--delay-1">
+                <div class="sequence-panel__heading"><div><span class="card-kicker">Exemplo / Thor</span><h3>Energia em camadas.</h3></div><span class="context-badge context-badge--blue">Frame a frame</span></div>
+                <div class="sequence-demo" data-sequence-demo data-sequence-labels="Frame 01 · atmosfera|Frame 02 · detalhe">
+                  <div class="sequence-demo__stage">
+                    <img class="sequence-demo__frame is-active" data-sequence-frame src="assets/references/showroom/thor-storm.png" alt="Referência de atmosfera para hero interno de showroom" />
+                    <img class="sequence-demo__frame" data-sequence-frame src="assets/references/showroom/thor-frame.jpg" alt="Referência de detalhe para hero interno de showroom" />
+                    <div class="sequence-demo__hud"><span class="mono-label">Hero / sequência</span><span data-sequence-output>Frame 01 · atmosfera</span></div>
+                  </div>
+                  <label class="sequence-demo__range"><span class="mono-label">Scrub da referência</span><input type="range" min="0" max="1" step="1" value="0" data-sequence-range aria-label="Controlar amostra de sequência Thor" /><span class="sequence-demo__ticks" aria-hidden="true"><i>01</i><i>02</i></span></label>
+                </div>
+              </article>
+            </div>
+
+            <div class="media-gallery media-gallery--compact js-reveal" aria-label="Galeria de referências para showroom">
+              <div class="media-gallery__heading"><span class="card-kicker">Bloco / Dossiê do veículo</span><h3>Detalhe em blocos, sem catálogo infinito.</h3><p>Atmosfera, exterior, interior, equipamento e prova devem ocupar módulos claros em uma composição vertical.</p></div>
+              <div class="media-gallery__track">
+                <figure class="media-tile"><img src="assets/references/showroom/cogni-cinematic.webp" alt="Paisagem cinematográfica usada como referência de atmosfera para showroom" loading="lazy" /><figcaption><span>Cogni</span><strong>Atmosfera</strong></figcaption></figure>
+                <figure class="media-tile"><img src="assets/references/showroom/iron-man-frame.jpg" alt="Frame usado como referência de detalhe de veículo" loading="lazy" /><figcaption><span>Iron Man</span><strong>Detalhe</strong></figcaption></figure>
+                <figure class="media-tile"><img src="assets/references/showroom/thor-frame.jpg" alt="Frame usado como referência de feature card de veículo" loading="lazy" /><figcaption><span>Thor</span><strong>Feature card</strong></figcaption></figure>
+              </div>
+            </div>
+
+            <div class="slot-card slot-card--blue js-reveal"><span class="mono-label">Slot futuro / Veículo</span><strong>Hero, exterior, interior, detalhe e prova.</strong><small>Sequência de imagens ou vídeo · carregamento progressivo · fallback estático obrigatório.</small></div>
+          </div>
+        </section>
+
+        <section class="section section--soft" id="referencias">
+          <div class="container">
+            <span class="eyebrow js-reveal">08 / Referências aplicadas</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Um sistema.<br /><span>Dois ritmos.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">Os padrões são reaproveitados pela função. A estética específica de cada site não é copiada como identidade. O Institucional recebe entrada coreografada; o Showroom recebe sequência frame a frame.</p>
+
+            <div class="reference-matrix js-reveal js-reveal--delay-2">
+              <div class="reference-matrix__intro"><span class="card-kicker">Leitura da referência</span><h3>O que entra em cada contexto.</h3><p>Esta matriz orienta o próximo ciclo de componentes e impede que a linguagem de uma página interna invada a homepage institucional.</p></div>
+              <div class="matrix-table" role="table" aria-label="Matriz de referências por contexto">
+                <div class="matrix-row matrix-row--head" role="row"><span role="columnheader">Referência</span><span role="columnheader">Institucional</span><span role="columnheader">Showroom</span><span role="columnheader">Decisão v0</span></div>
+                <div class="matrix-row" role="row"><strong>AEX</strong><span>Capítulos e parallax</span><span>Lifestyle e uso</span><b>Adaptar nos dois</b></div>
+                <div class="matrix-row" role="row"><strong>AI Intelligence SaaS</strong><span>Processo e prova</span><span>Dossiê e CTA</span><b>Adaptar estrutura</b></div>
+                <div class="matrix-row" role="row"><strong>Bloomava Creative</strong><span>Galeria e bento</span><span>Exterior / interior</span><b>Usar com mídia real</b></div>
+                <div class="matrix-row" role="row"><strong>Cogni</strong><span>Tecnologia pontual</span><span>Atmosfera e módulos</span><b>Usar com parcimônia</b></div>
+                <div class="matrix-row" role="row"><strong>Iron Man</strong><span>Não é base</span><span>Hero frame a frame</span><b>Prioridade showroom</b></div>
+                <div class="matrix-row" role="row"><strong>Savory Plate</strong><span>Editorial e prova</span><span>Deck de detalhes</span><b>Adaptar interação</b></div>
+                <div class="matrix-row" role="row"><strong>Sonic Link</strong><span>Entrada do hero</span><span>Não é base</span><b>Movimento institucional</b></div>
+                <div class="matrix-row" role="row"><strong>Thor</strong><span>Não é base</span><span>Hero frame a frame</span><b>Prioridade showroom</b></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="aplicacao">
+          <div class="container">
+            <span class="eyebrow js-reveal">09 / Aplicação no produto</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Herdar sem <span>apagar a marca.</span></h2>
+            <p class="section-intro js-reveal js-reveal--delay-2">A InovvaCar recebe a estrutura institucional e adiciona sua camada de showroom, curadoria e decisão automotiva.</p>
+            <div class="inheritance-grid">
+              <article class="token-card js-reveal"><span class="card-kicker">Inovva Group</span><h3>Autoridade</h3><p>Logo, confiança, precisão, estrutura, azul Inovva e relação institucional.</p></article>
+              <article class="token-card js-reveal js-reveal--delay-1"><span class="card-kicker">InovvaCar</span><h3>Desejo + decisão</h3><p>Curadoria, veículos, compra, locação, consórcio, troca e próximos capítulos.</p></article>
+              <article class="token-card js-reveal js-reveal--delay-2"><span class="card-kicker">Próxima camada</span><h3>Showroom</h3><p>Scenes 01–03 da homepage, coleções Signature, Selection, Business e Delivered.</p></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--soft">
+          <div class="container">
+            <span class="eyebrow js-reveal">Sistema vivo</span>
+            <h2 class="section-heading js-reveal js-reveal--delay-1">Estrutura para decidir.<br /><span>Clareza para avançar.</span></h2>
+            <div class="hero-actions js-reveal js-reveal--delay-2"><a class="button" href="#top">Voltar ao início <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6" /></svg></a></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div><img class="footer-logo" src="assets/brand/inovvacar-logo-claro.png" alt="InovvaCar" /><p class="footer-note">InovvaCar · Design System v0</p></div>
+            <nav class="footer-links" aria-label="Navegação do rodapé"><a href="#tipografia">Tipografia</a><a href="#cores">Cores</a><a href="#componentes">Componentes</a><a href="#movimento">Movimento</a><a href="#institucional">Institucional</a><a href="#showroom">Showroom</a></nav>
+          </div>
+          <div class="footer-bottom"><span>Estrutura · Clareza · Estratégia · Execução</span><span>Fundação local · sem dependências externas</span></div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

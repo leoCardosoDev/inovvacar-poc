@@ -1,0 +1,60 @@
+:root {
+  --color-ink: #02041d;
+  --color-ink-soft: #0f1b24;
+  --color-graphite: #1e2b34;
+  --color-blue: #439fe2;
+  --color-blue-deep: #3f8bb3;
+  --color-cyan: #60afd4;
+  --color-silver: #a7b3b9;
+  --color-surface: #f4f7f8;
+  --color-white: #ffffff;
+
+  --text-primary: var(--color-ink);
+  --text-secondary: rgb(30 43 52 / 0.68);
+  --text-tertiary: rgb(30 43 52 / 0.48);
+  --border-subtle: rgb(2 4 29 / 0.1);
+  --border-strong: rgb(2 4 29 / 0.18);
+
+  --font-display: "Manrope", "Inter", "Segoe UI", Arial, sans-serif;
+  --font-body: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-mono: "Geist Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.5rem;
+  --text-hero: clamp(3.25rem, 8vw, 8rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --radius-sm: 0.625rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 10px 30px rgb(2 4 29 / 0.08);
+  --shadow-md: 0 24px 60px rgb(15 27 36 / 0.12);
+  --shadow-lg: 0 34px 90px rgb(2 4 29 / 0.2);
+
+  --content-width: 80rem;
+  --gutter: clamp(1.25rem, 5vw, 6rem);
+  --header-height: 5.5rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 180ms;
+  --duration-base: 320ms;
+  --duration-slow: 720ms;
+}
