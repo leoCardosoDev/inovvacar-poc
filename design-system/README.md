@@ -1,10 +1,17 @@
 # InovvaCar — Design System v0
 
-Fundação visual inicial da InovvaCar, herdando princípios do sistema institucional da Inovva Group e adaptando-os para uma operação premium de curadoria, compra, locação e planejamento de veículos.
+Sistema de referência visual da InovvaCar. Ele não é o site institucional nem o showroom final; ele guia as decisões de ambos, mantendo a marca consistente, a estrutura organizada e o movimento sob controle.
+
+## Papel do sistema
+
+- Guiar o site institucional.
+- Guiar o showroom, carro a carro.
+- Servir como fonte de verdade para cores, tipografia, motion, composição e comportamento.
+- Evitar que cada página invente sua própria linguagem visual.
 
 ## Estrutura
 
-- `index.html` — documentação visual e página de espécimes.
+- `index.html` — documentação visual e página de espécimes do sistema.
 - `styles/tokens.css` — tokens de cor, tipografia, espaçamento, raios, sombras e motion.
 - `styles/base.css` — reset, estrutura, tipografia base e utilitários.
 - `styles/components.css` — header, hero, buttons, cards, campos, accordion, entrada coreografada, galerias em blocos, sequência de hero, matriz de referências, footer e responsividade.
@@ -58,7 +65,7 @@ O v0 organiza a experiência em blocos verticais de seção. Galerias usam grid 
 2. Componentes novos devem preservar foco de teclado e leitura em mobile.
 3. Os assets desta pasta são independentes e não dependem de outras pastas do workspace.
 4. A identidade oficial do logo deve ser preservada; não redesenhar nem aplicar efeitos no arquivo. Usar `logo-claro` somente em fundo escuro e `logo-escuro` somente em fundo claro.
-5. O sistema ainda é v0: tipografia final, estados comerciais, escala de mídia, sequência real de imagens e componentes de showroom serão refinados antes da primeira implementação da homepage.
+5. O sistema ainda é v0: tipografia final, estados comerciais, escala de mídia, sequência real de imagens e componentes de showroom serão refinados antes da primeira implementação das páginas finais.
 
 ## Como visualizar
 
