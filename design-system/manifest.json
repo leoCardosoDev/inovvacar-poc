@@ -1,0 +1,116 @@
+{
+  "name": "Inovva Car Design System",
+  "slug": "inovvacar-design-system",
+  "version": "0.1.0",
+  "status": "approved-v0",
+  "language": "pt-BR",
+  "purpose": "Guiar o site institucional e o showroom da Inovva Car sem se tornar nenhuma dessas páginas finais.",
+  "isProductionSite": false,
+  "sourceOfTruth": [
+    "README.md",
+    "manifest.json",
+    "styles/tokens.css",
+    "styles/base.css",
+    "styles/components.css",
+    "styles/motion.css"
+  ],
+  "contexts": {
+    "institutional": {
+      "label": "Site institucional",
+      "assetPath": "assets/institutional",
+      "referencePath": "assets/references/institutional",
+      "motion": "Composição em camadas e entradas coreografadas inspiradas no Sonic Link.",
+      "mustPreserve": [
+        "Paleta Inovva Car",
+        "Tipografia definida nos tokens",
+        "Seções verticais",
+        "Leitura clara em mobile"
+      ],
+      "mustAvoid": [
+        "Copiar as cores da referência Sonic Link",
+        "Usar hero frame a frame como estrutura principal",
+        "Criar scroll horizontal estrutural"
+      ]
+    },
+    "showroom": {
+      "label": "Showroom carro a carro",
+      "assetPath": "assets/showroom",
+      "referencePath": "assets/references/showroom",
+      "motion": "Hero frame a frame inspirado em Iron Man e Thor, com fallback para movimento reduzido.",
+      "mustPreserve": [
+        "Identidade da Inovva Car",
+        "Hierarquia comercial",
+        "Informações do veículo visíveis",
+        "Composição vertical sem catálogo infinito"
+      ],
+      "mustAvoid": [
+        "Misturar sequências de veículos diferentes",
+        "Esconder preço, status ou especificações",
+        "Movimento sem controle ou sem fallback"
+      ]
+    }
+  },
+  "assetDirectories": {
+    "brand": {
+      "path": "assets/brand",
+      "purpose": "Logos oficiais e variantes de marca.",
+      "allowed": ["webp", "svg"],
+      "rule": "Não editar, redesenhar, aplicar filtros ou simular transparência nos logos oficiais."
+    },
+    "references": {
+      "path": "assets/references",
+      "purpose": "Amostras locais das referências usadas para estudar composição, motion e hierarquia.",
+      "subdirectories": ["institutional", "showroom"],
+      "rule": "Referência não é asset final de campanha, produto ou veículo."
+    },
+    "mood": {
+      "path": "assets/mood",
+      "purpose": "Imagens de atmosfera, presença e direção visual usadas na documentação do sistema.",
+      "rule": "Usar apenas para comunicar intenção visual; substituir por conteúdo aprovado na produção."
+    },
+    "institutional": {
+      "path": "assets/institutional",
+      "purpose": "Espaço reservado para assets aprovados exclusivamente para o site institucional.",
+      "rule": "Não colocar referências externas aqui."
+    },
+    "showroom": {
+      "path": "assets/showroom",
+      "purpose": "Espaço reservado para assets aprovados do showroom e dos veículos.",
+      "rule": "Organizar por veículo quando os assets reais forem incorporados."
+    }
+  },
+  "namingConvention": {
+    "language": "Português do Brasil",
+    "case": "kebab-case",
+    "pattern": "descricao-origem.extensao",
+    "diacritics": false,
+    "examples": [
+      "logo-inovvacar-claro.webp",
+      "pessoa-maicon-bracos-cruzados.webp",
+      "movimento-sonic-link.webp",
+      "heroi-iron-man.webp",
+      "atmosfera-thor.webp"
+    ],
+    "exceptions": [
+      "Nomes oficiais de marcas e referências podem permanecer reconhecíveis.",
+      "A extensão deve corresponder ao formato real do arquivo."
+    ]
+  },
+  "globalRules": [
+    "Não criar uma segunda linguagem visual fora dos tokens do sistema.",
+    "Alterar tokens antes de criar exceções em componentes.",
+    "Organizar experiências em blocos verticais de section.",
+    "Evitar scroll horizontal, especialmente em conteúdo comercial.",
+    "Suportar prefers-reduced-motion em toda animação relevante.",
+    "Não usar arquivos de temp, context, .codex ou .agents como dependência final.",
+    "Não transformar este diretório no site institucional ou no showroom final."
+  ],
+  "qualityGates": [
+    "Todos os caminhos referenciados no HTML existem dentro de design-system/.",
+    "Não há referências a temp/ nos arquivos de implementação.",
+    "Os nomes de assets seguem kebab-case sem acentos.",
+    "As extensões dos arquivos correspondem ao conteúdo real.",
+    "O layout não exige scroll horizontal em viewport móvel.",
+    "O conteúdo continua legível com movimento reduzido."
+  ]
+}

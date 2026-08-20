@@ -90,7 +90,7 @@
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const timers = [];
     const phaseLabels = {
-      intro: "Abertura · InovvaCar",
+      intro: "Abertura · Inovva Car",
       main: "Sistema para conduzir",
       alt: "Clareza em movimento",
       resolve: "Resolução · Design System v0",
