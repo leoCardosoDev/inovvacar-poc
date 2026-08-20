@@ -1,0 +1,73 @@
+{
+  "descricao": "Registro das páginas e arquivos oficiais usados como referência visual dos veículos da Inovva Car.",
+  "observacao": "Os arquivos são material de referência local. Antes da publicação comercial, validar autorização de uso, versão, ano, unidade e status do veículo.",
+  "veiculos": [
+    {
+      "nome": "Ferrari Portofino M",
+      "arquivo": "ferrari-portofino-vermelha.webp",
+      "origem": "https://www.ferrari.com/it-SM/corporate/articles/inizia-il-viaggio-di-riscoperta-della-ferrari-portofino-m",
+      "arquivoOficial": "https://cdn.ferrari.com/cms/network/media/img/portofinom_lores_selection_1.jpg",
+      "statusDownload": "concluido",
+      "tratamentoHero": "Imagem vermelha fornecida pelo projeto para a composição da Hero; a referência oficial da Ferrari permanece registrada na origem."
+    },
+    {
+      "nome": "Mercedes-Benz C 180",
+      "arquivo": "mercedes-c180-prata.webp",
+      "origem": "https://imprensa.mercedes-benz.com.br/releases/mercedes-benz-anuncia-condicao-especial-para-classe-c",
+      "arquivoOficial": "https://imprensa.mercedes-benz.com.br/storage/images/8067311ac9d732b8e77fc207d6c66fc393a154c1.jpg",
+      "statusDownload": "fornecido-pelo-projeto",
+      "observacao": "Imagem prata fornecida pelo projeto para destacar um único C 180 na Hero Section institucional."
+    },
+    {
+      "nome": "Mercedes-Benz GLB 200, ano 2021",
+      "arquivo": "mercedes-glb-200-2021.webp",
+      "origem": "https://imprensa.mercedes-benz.com.br/releases/mercedes-benz-anuncia-duas-novas-versoes-do-glb-200-no-brasil",
+      "arquivoOficial": "https://imprensa.mercedes-benz.com.br/storage/images/178cd8c41a53ae3496a10a63fdfb93607dc88154.png",
+      "statusDownload": "concluido"
+    },
+    {
+      "nome": "Land Rover Range Rover",
+      "arquivo": "land-rover-range-rover.webp",
+      "origem": "https://media.landrover.com/en-us/image-packs/exterior-new-range-rover",
+      "arquivoOficial": "https://media.production.jlrms.com/styles/low_res/s3/2021-10-25/image/cbfb3e8c-d940-480d-a08a-717227467fcc/RR_22MY_01_Exterior_261021_117_DX.jpg?VersionId=VlMnBrqifYpoGNEkXSR8mxQ.QV9sZmVY&itok=uYsUYarP",
+      "statusDownload": "concluido"
+    },
+    {
+      "nome": "Hyundai Creta",
+      "arquivo": "hyundai-creta.webp",
+      "origem": "https://www.hyundai.com.br/veiculos/novo-hyundai-creta.html",
+      "arquivoOficial": "https://www.hyundai.com.br/content/dam/hmb/product-page/novo-hyundai-creta/footer/footer_desk.webp",
+      "statusDownload": "concluido"
+    },
+    {
+      "nome": "BMW X5",
+      "arquivo": "bmw-x5.webp",
+      "origem": "https://www.bmw.com.br/pt/all-models/serie-x/x5/bmw-x5.html",
+      "arquivoOficial": "https://bmw.scene7.com/is/image/BMW/1-x5-header%3A16to7?fit=wrap%2C+1&fmt=webp&wid=2560",
+      "statusDownload": "concluido"
+    },
+    {
+      "nome": "Fiat Strada",
+      "arquivo": "fiat-strada-branca.webp",
+      "origem": "https://strada.fiat.com.br/",
+      "arquivoOficial": "https://strada.fiat.com.br/og-image.jpg",
+      "statusDownload": "fornecido-pelo-projeto",
+      "observacao": "Imagem do Strada branco fornecida pelo projeto para a Hero Section institucional; substitui a imagem de logotipo usada anteriormente por engano."
+    },
+    {
+      "nome": "Volkswagen Constellation 17.190",
+      "arquivo": "volkswagen-constellation-17-190.webp",
+      "origem": "https://www.vwco.com.br/caminhoes/Constellation/Constellation%2017.190?id=2&productid=35",
+      "arquivoOficial": "https://d1qeqf1yyyqyq8.cloudfront.net/f6455d11-ef60-42a3-8299-defa1d6c7db8.jpeg",
+      "statusDownload": "concluido"
+    },
+    {
+      "nome": "Volvo XC40",
+      "arquivo": null,
+      "origem": "https://www.volvocars.com/br/media/models/xc40/2022/",
+      "arquivoOficial": "https://www.volvocars.com/images/cs/v3/assets/blt0feaa88e629251fc/blt81510bd756beee35/685251f65f3d739fd7887f8a/overview-exterior-gallery-01-4X5.jpg?branch=prod_alias&format=auto&iar=0&quality=85&w=3840",
+      "statusDownload": "pendente-cdn-bloqueado",
+      "observacao": "A página oficial foi consultada, mas o CDN bloqueou o download automatizado neste ambiente. Não foi criado asset artificial; retomar com o arquivo oficial fornecido pela operação ou com acesso autorizado ao media center Volvo."
+    }
+  ]
+}
